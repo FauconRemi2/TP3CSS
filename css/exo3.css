@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    margin: 60px 0;
+}
+
+h2{
+    margin: 20px 0;
+    text-align: center;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+.exoUnContainer{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: dotted 2px black;
+}
+
+.carre{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
+.carreRouge{
+    background: red;
+    top: 0px;
+    right: 0px;
+}
+.carreJaune{
+    background: yellow;
+    top: 0px;
+    left: 0px;
+}
+.carreBleu{
+    background: blue;
+    bottom: 0px;
+    right: 0px;
+}
+.carreVert{
+    background: green;
+    bottom: 0px;
+    left: 0px;
+}
+
+.exoUnContainer{
+    position: relative;
+}
+
+.carreViolet{
+    background: violet;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}
+.form{
+    width: 500px;
+    background-color: darkolivegreen;
+    position: relative;
+}
+.form h3{
+    font-size: 30px;
+    color: white;
+    padding: 40px;
+}
+.form img{
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+}
+textarea{
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+    resize: none;
+}
+input::placeholder, textarea::placeholder{
+    font-size: 20px;
+    padding: 15px;
+}

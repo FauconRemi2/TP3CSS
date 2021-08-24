@@ -1,0 +1,136 @@
+.flag{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.france{
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+}
+.france::before{
+    content: "";
+    background-color: blue;
+    position: absolute;
+    border-style: none;
+    height: 200px;
+    width: 115px;
+}
+.france::after{
+    content: "";
+    background-color: red;
+    position: absolute;
+    left: 230px;
+    border-style: none;
+    height: 200px;
+    width: 115px;
+}
+
+
+
+
+.allemagne{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+.allemagne::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    border-style: none;
+    height: 66px;
+    width: 400px;
+}
+.allemagne::after{
+    content: "";
+    background-color: yellow;
+    position: absolute;
+    top: 143px;
+    border-style: none;
+    height: 66px;
+    width: 400px;
+}
+
+
+
+.japon{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    border: 2px solid;
+    border-color: black;
+}
+.japon::before{
+    content: "";
+    position: absolute;
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    top: 66px;
+    left: 166px;
+    border-radius: 50%;
+}
+
+
+.suisse{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+.suisse::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    border-style: none;
+    height: 50px;
+    width: 150px;
+    top: 36%;
+    left: 33%;
+}
+.suisse::after{
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    right: 166px;
+    border-style: none;
+    height: 150px;
+    width: 50px;
+}
+
+
+.norvege{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+.norvege::before{
+    content: "";
+    background-color: darkblue;
+    position: absolute;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    border-color: white;
+    height: 20px;
+    width: 400px;
+    top: 36%;
+}
+.norvege::after{
+    content: "";
+    background-color: darkblue;
+    position: absolute;
+    border-right: 10px solid;
+    border-left: 10px solid;
+    border-color: white;
+    left: 85px;
+    height: 200px;
+    width: 20px;
+}
